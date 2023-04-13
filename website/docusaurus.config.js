@@ -28,6 +28,8 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  trailingSlash: false,
+
   // ...
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
